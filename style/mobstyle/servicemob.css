@@ -1,0 +1,82 @@
+
+.service__mob1{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:450px) {
+    .service__mob1{
+        display: block;
+        padding: 10px;
+    }
+    .p__service__mob{
+
+        color: white;
+        font-size: 14px;
+        line-height: 20.3px; 
+    }
+
+    .service__mob__cards{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     gap: 20px;
+    
+    }
+    .h1__service__mob{
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    margin: 20px 0;
+    display: block;
+    
+    }
+    .Service__mob{
+        margin: auto;
+        width: 41+0px;
+    }
+    .service__mob__card{
+        background-image: url(../../img/service/mob/mob__ot.svg);
+     width: 145px;
+     height: 130px;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5px;
+    }
+    .s2{
+        background-image: url(../../img/service/mob/mob__wat.svg);
+    }
+    .s3{
+        background-image: url(../../img/service/mob/mob__air.svg);
+    }
+    .s4{
+        background-image: url(../../img/service/mob/mob__mol.svg);
+    }
+    .s5{
+        background-image: url(../../img/service/mob/mob__gaz.svg);
+    }
+    .s6{
+        width: 145px;
+     height: 130px;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5px;
+        background-color: rgb(26, 43, 86);
+    }   
+}

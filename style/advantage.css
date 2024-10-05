@@ -1,0 +1,119 @@
+
+.advantage{
+    width: 1150px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.icon__line__adv{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+    gap: 15px;
+}
+.dashed__line{
+    border-bottom: 1px dashed #E5E5E5;
+    position: absolute;
+    z-index: -2;
+    top: 25%;
+    width: 980px;
+    margin: auto;
+
+
+}
+
+.icon__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.p__adv__div{
+    width: 180px;
+
+font-size: 14px;
+line-height: 21.75px;
+text-align: center;
+
+}
+.h1__adv{
+
+    font-size: 36px;
+    line-height: 52.2px;
+    letter-spacing: 0.01em;
+    
+}
+
+@media (max-width:450px) {
+       .icon__line__adv{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 15px;
+
+       }
+       .dashed__line{
+        display: none;
+       }
+       .icon__main{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+       }
+       .advantage{
+       width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       }    
+       .icon__div__adv{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #EBF0F4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+       
+}
+@media (max-width:900px) {
+
+       .dashed__line{
+        width: 90%;
+       }
+       .icon__main{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+       }
+       .advantage{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       }    
+       .icon__div__adv{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #EBF0F4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .icon__line__adv{
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+       
+}

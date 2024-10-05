@@ -1,0 +1,76 @@
+.h1__service{
+font-size: 36px;
+line-height: 52.2px;
+letter-spacing: 0.01em;
+margin-bottom: 20px;
+
+}
+span{
+    color: #4F75D2;
+}
+.Service{
+    width: 1150px;
+    margin: 45px auto;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 22px;
+
+}
+.service__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service__card{
+    border: 1px solid #EBF0F4;
+}
+.service__info__card{
+    padding: 22px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.p__service{
+    font-size: 16px;
+    line-height: 18.75px;
+    cursor: pointer;
+}
+.p__service:hover{
+    color: #4F75D2;
+}
+.vdp__bg{
+    background:#4F75D2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 138px;
+}
+.vdp__p{
+
+font-size: 36px;
+font-weight: 500;
+line-height: 52.2px;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+
+}
+@media (max-width: 450px) {
+    .Service{
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .Service{
+        width: 100%;
+    }
+    .service__cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+

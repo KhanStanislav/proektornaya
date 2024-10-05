@@ -1,0 +1,25 @@
+.nav__second{
+    padding: 10px;
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+.main__nav2{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1150px;
+}
+.main__nav__second{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.div__second__nav{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.nav2__logo{
+    width: 110px;
+}
