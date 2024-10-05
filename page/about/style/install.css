@@ -1,0 +1,105 @@
+.install{
+    width: 1150px;
+    margin: auto;
+    position: relative;
+}
+.install__cards{
+    display: flex;
+    justify-content: space-between;
+}
+.install__card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 275px;
+text-align: center;
+}
+.img__install__card{
+    width: 185px;
+    height: 185px;
+
+}
+.div2__card__install{
+    text-align: left;
+
+}
+.div1__install__card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info__install__card{
+    text-align: left;
+}
+.big__number{
+font-size: 90px;
+font-weight: 700;
+line-height: 130.5px;
+letter-spacing: 0.01em;
+color: rgba(79, 117, 210, 0.2);
+position: absolute;
+top: 56%;
+left: -5%;
+}
+.h3__install__card{
+
+font-size: 16px;
+font-weight: 500;
+line-height: 23.2px;
+letter-spacing: 0.01em;
+color: rgba(34, 34, 34, 1);
+
+}
+.p__instal__text{
+
+font-size: 14px;
+font-weight: 400;
+line-height: 20.3px;
+letter-spacing: 0.01em;
+color: rgba(121, 121, 121, 1);
+
+}
+.h1__install{
+font-size: 24px;
+line-height: 34.8px;
+letter-spacing: 0.01em;
+margin-bottom: 40px;
+
+}
+.dashed__line__i{
+    border-bottom: 1px dashed #E5E5E5;
+    position: absolute;
+    z-index: -2;
+    top: 40%;
+    width: 980px;
+    margin: auto;
+
+
+}
+@media (max-width:450px) {
+  .install__cards{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }  
+  .install{
+    margin: auto;
+    width: 410px;
+  }
+  .dashed__line{
+    display: none;
+  }
+}
+@media (max-width:900px) {
+
+  .install{
+   width: 100%;
+   padding: 20px;
+  }
+  .dashed__line__i{
+  width: 80%;
+  }
+}

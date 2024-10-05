@@ -1,0 +1,32 @@
+.work{
+    width: 1150px;
+    margin: auto;
+}
+.work__div{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #EBF0F4;
+    position: relative;
+    
+}
+.icon__work{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: -20%;
+    top: 10%;
+}
+@media (max-width:450px) {
+     .work{
+        width: 410px;
+        
+     }    
+}
+@media (max-width:900px) {
+     .work{
+        width: 100%;
+        padding: 20px;
+        
+     }    
+}

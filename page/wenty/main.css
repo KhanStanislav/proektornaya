@@ -1,0 +1,19 @@
+@import url('./style/montage.css');
+@import url('./style/wenty.css');
+@import url('../../style/nav.css');
+@import url('../../style/nav2.css');
+@import url('../../style/nav3.css');
+@import url('../../style/footer.css');
+@import url('./style/email.css');
+@import url('../../style/advantage.css');
+@import url('../../style/mobstyle/navmob.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+span{
+    color: rgba(79, 117, 210, 1);
+}
+
