@@ -1,0 +1,26 @@
+@import url('./style/nav.css');
+@import url('./style/nav2.css');
+@import url('./style/nav3.css');
+@import url('./style/header.css');
+@import url('./style/service.css');
+@import url('./style/advantage.css');
+@import url('./style/doc.css');
+@import url('./style/email.css');
+@import url('./style/trust.css');
+@import url('./style/article.css');
+@import url('./style/fallowing.css');
+@import url('./style/map.css');
+@import url('./style/footer.css');
+@import url('./style/mobstyle/navmob.css');
+@import url('./style/mobstyle/servicemob.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
